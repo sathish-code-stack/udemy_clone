@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <a href="#" class="logo">udemy</a>
+
+            <button class="cat-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+                <span>Categories</span>
+            </button>
+
+            <form class="search-form" role="search">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#1c1d1f" stroke-width="2">
+                    <circle cx="11" cy="11" r="7" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <input type="text" placeholder="Search for anything">
+            </form>
+
+            <nav class="nav-links">
+                <a href="#" class="plain hide-m">Udemy Business</a>
+                <a href="#" class="plain hide-m">Teach on Udemy</a>
+                <a href="#" class="hide-m" aria-label="Wishlist">
+                    <svg class="icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+                    </svg>
+                </a>
+                <a href="#" aria-label="Cart">
+                    <svg class="icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                        <path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6" />
+                    </svg>
+                </a>
+                <a href="#" class="plain hide-m">Log in</a>
+                <a href="#" class="btn btn-outline hide-m">Sign up</a>
+                <a href="#" class="btn btn-solid">Teach</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div>
+                <h1>Skills that open doors, all in one place</h1>
+                <p>Learn in-demand skills from real-world experts, at a price that fits your goals — with courses you
+                    can start today and finish on your schedule.</p>
+                <a href="#" class="btn btn-solid">Explore courses</a>
+            </div>
+            <div class="hero-art">
+                <div class="card c1">Web Development<small>412 courses</small></div>
+                <div class="card c2">4.7 ★ average rating<small>from 12,300 reviews</small></div>
+                <div class="card c3">Data Science<small>New course added</small></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="inner">
+            <div class="pill-row">
+                <a class="pill" href="#">Python</a>
+                <a class="pill" href="#">JavaScript</a>
+                <a class="pill" href="#">AWS Certification</a>
+                <a class="pill" href="#">Excel</a>
+                <a class="pill" href="#">Graphic Design</a>
+                <a class="pill" href="#">Machine Learning</a>
+                <a class="pill" href="#">SQL</a>
+                <a class="pill" href="#">UI/UX Design</a>
+                <a class="pill" href="#">Public Speaking</a>
+                <a class="pill" href="#">Photography</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+        <div class="section-head">
+            <h2>Learners are viewing</h2>
+            <a href="#">Show all</a>
+        </div>
+        <div class="inner">
+            <div class="course-grid">
+
+                <div class="course-card">
+                    <div class="thumb t1"><span>Complete Web Development Bootcamp</span></div>
+                    <div class="card-body">
+                        <div class="card-title">The Complete Web Developer Course 2026</div>
+                        <div class="card-author">Marcus Fenwick</div>
+                        <div class="rating"><span class="score">4.7</span><span class="stars">★★★★★</span><span
+                                class="count">(48,213)</span></div>
+                        <div class="price">₹549 <span class="old">₹3,199</span></div>
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t2"><span>Python for Data Analysis</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Python for Data Analysis & Visualization</div>
+                        <div class="card-author">Priya Nataraj</div>
+                        <div class="rating"><span class="score">4.6</span><span class="stars">★★★★★</span><span
+                                class="count">(21,904)</span></div>
+                        <div class="price">₹499 <span class="old">₹2,999</span></div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t3"><span>UI/UX Design Fundamentals</span></div>
+                    <div class="card-body">
+                        <div class="card-title">UI/UX Design Essentials: Figma to Prototype</div>
+                        <div class="card-author">Elena Brooks</div>
+                        <div class="rating"><span class="score">4.8</span><span class="stars">★★★★★</span><span
+                                class="count">(15,432)</span></div>
+                        <div class="price">₹649 <span class="old">₹3,499</span></div>
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t4"><span>Machine Learning A-Z</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Machine Learning A-Z: Hands-On Python</div>
+                        <div class="card-author">Dr. Samuel Ortiz</div>
+                        <div class="rating"><span class="score">4.5</span><span class="stars">★★★★★</span><span
+                                class="count">(38,120)</span></div>
+                        <div class="price">₹599 <span class="old">₹3,199</span></div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t5"><span>Digital Marketing Masterclass</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Digital Marketing Masterclass 2026</div>
+                        <div class="card-author">Hana Whitfield</div>
+                        <div class="rating"><span class="score">4.4</span><span class="stars">★★★★★</span><span
+                                class="count">(9,871)</span></div>
+                        <div class="price">₹449 <span class="old">₹2,499</span></div>
+                        <span class="badge">New</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background:var(--gray-bg);">
+        <div class="section-head">
+            <h2>Top courses in Web Development</h2>
+            <a href="#">Show all</a>
+        </div>
+        <div class="inner">
+            <div class="course-grid">
+
+                <div class="course-card">
+                    <div class="thumb t6"><span>React - The Complete Guide</span></div>
+                    <div class="card-body">
+                        <div class="card-title">React - The Complete Guide (Hooks, Router)</div>
+                        <div class="card-author">Tobias Klein</div>
+                        <div class="rating"><span class="score">4.7</span><span class="stars">★★★★★</span><span
+                                class="count">(52,004)</span></div>
+                        <div class="price">₹549 <span class="old">₹3,199</span></div>
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t7"><span>Node.js API Masterclass</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Node.js: The Complete Backend Guide</div>
+                        <div class="card-author">Grace Adeyemi</div>
+                        <div class="rating"><span class="score">4.6</span><span class="stars">★★★★★</span><span
+                                class="count">(17,662)</span></div>
+                        <div class="price">₹499 <span class="old">₹2,999</span></div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t8"><span>HTML CSS JavaScript</span></div>
+                    <div class="card-body">
+                        <div class="card-title">HTML, CSS & JavaScript for Beginners</div>
+                        <div class="card-author">Owen Castillo</div>
+                        <div class="rating"><span class="score">4.5</span><span class="stars">★★★★★</span><span
+                                class="count">(63,215)</span></div>
+                        <div class="price">₹449 <span class="old">₹2,499</span></div>
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t9"><span>Full Stack with Django</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Full Stack Web Development with Django</div>
+                        <div class="card-author">Ines Moreau</div>
+                        <div class="rating"><span class="score">4.4</span><span class="stars">★★★★★</span><span
+                                class="count">(8,304)</span></div>
+                        <div class="price">₹599 <span class="old">₹3,199</span></div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="thumb t10"><span>TypeScript Deep Dive</span></div>
+                    <div class="card-body">
+                        <div class="card-title">Understanding TypeScript - Deep Dive</div>
+                        <div class="card-author">Felix Adler</div>
+                        <div class="rating"><span class="score">4.7</span><span class="stars">★★★★★</span><span
+                                class="count">(24,556)</span></div>
+                        <div class="price">₹549 <span class="old">₹2,999</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="inner">
+            <div class="cta-banner">
+                <div>
+                    <h2>Get your team the skills to succeed</h2>
+                    <p>Give your team access to a growing library of courses, hands-on practice, and progress tracking
+                        built for organizations.</p>
+                </div>
+                <a href="#" class="btn btn-solid">Get started</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
